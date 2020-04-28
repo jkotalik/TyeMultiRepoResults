@@ -1,0 +1,6 @@
+name: VotingSample
+services:
+- name: worker
+  repository: https://github.com/jkotalik/TyeMultiRepoWorker
+- name: results
+  project: results/results.csproj
